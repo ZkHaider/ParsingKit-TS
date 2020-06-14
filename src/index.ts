@@ -1,5 +1,3 @@
-export const sum = (a: number, b: number): number => a + b
-
 export type Optional<T> = T | null | undefined;
 export type ParseResult<T> = {
     match: Optional<T>,
